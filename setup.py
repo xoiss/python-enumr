@@ -28,4 +28,7 @@ setuptools.setup(
         'Topic :: Software Development :: Libraries :: Python Modules',
     ],
     packages=["enumr"],
+    install_requires=[
+        'subrange==1.0',
+    ],
 )
